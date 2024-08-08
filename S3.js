@@ -1156,7 +1156,7 @@ module.exports = function(RED) {
 			copyArg(msg,"Prefix",params,undefined,false); 
 			copyArg(msg,"ContinuationToken",params,undefined,false); 
 			copyArg(msg,"FetchOwner",params,undefined,false); 
-			copyArg(msg,"FetchTags",params,undefined,false); 
+			copyArg(msg,"OptionalObjectAttributes",params,undefined,false);
 			copyArg(msg,"StartAfter",params,undefined,false); 
 			copyArg(msg,"RequestPayer",params,undefined,false); 
 			copyArg(msg,"ExpectedBucketOwner",params,undefined,false); 
